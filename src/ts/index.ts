@@ -1,7 +1,7 @@
-function holaMundo(nombre) {
+function holaMundo(nombre:string) {
 	return "Hola mundo soy: " + nombre; 
 }
 
-let nombre = "Jmocana";
+var nombre:string = "Jmocana";
 
 document.getElementById('container').innerHTML = holaMundo(nombre);
