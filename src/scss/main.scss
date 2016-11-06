@@ -1,0 +1,7 @@
+$main-color : #EAEAEA;
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+.container {
+	background-color: $main-color;
+}
